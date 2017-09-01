@@ -1,6 +1,6 @@
 # aJanda - v0.1
 
-Simple Event Agenda (RTL is Supported) - by [joory](http://www.joory.me/).
+Simple Event Agenda (RTL is Supported) - by [Joory](http://www.joory.me/).
 
 ### Synopsis
 
@@ -106,4 +106,4 @@ This project is licensed under The MIT License (MIT) - see the [LICENSE.md](LICE
 
 ## Acknowledgments
 
-* [joory](http://www.joory.me/)
+* [Joory](http://www.joory.me/)
