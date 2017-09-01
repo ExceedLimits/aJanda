@@ -1,4 +1,4 @@
-# aJanda - v1.0
+# aJanda - v0.1
 
 Simple Event Agenda (RTL is Supported) - by [joory](http://www.joory.me/).
 
