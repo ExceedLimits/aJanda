@@ -1,6 +1,6 @@
 # aJanda - v1.0
 
-Simple Event Agenda (RTL is Supported)
+Simple Event Agenda (RTL is Supported) - by [joory](http://www.joory.me/).
 
 ### Synopsis
 
@@ -50,9 +50,50 @@ $(document).ready(function() {
                 }); 
             });
 ```
-## API Reference
+## Options Reference
 
+the Option List helps you customize Style and Content:
 
+###Theme
+use `darkColor` , `lightColor` , `mainColor` , `bgColor` to Customize aJanda theme. set using HEX color format.
+
+###Html Content
+set `htmlContent` to Enable adding your own html code as content. **False by default** 
+
+###RTL Support
+set `RTL` to Enable RTL layout. **False by default** 
+
+###Locale Support
+set `Locale` to choose your desired Localization. **'en-us' by default** 
+
+###Schedule
+use `date` , `title` , `content` to add aJanda segments.
+for more customizations set `extraClass` with your CSS Classes (**use !important if needed**)
+**make sure you have a non-empty schedule** 
+
+###Titles
+you can assign Tiltes for each Day, just Fill the right ammount of `Titles` array.
+
+Here is a Full Example:
+```javascript
+$('.hostelement').aJanda({		 
+                    darkColor: '#545f60',
+                    mainColor: '#3498db',
+                    lightColor: '#6edeef',
+                    bgColor: '#ffffff',
+                    htmlContent: false,
+                    RTL:false,
+                    Locale:'en-us',
+                    schedule:[
+                        {date:"2017/05/13 01:00 PM",title:"ttl1",content:"sample content1",extraClass:"myclass"},
+                        {date:"2017/05/13 09:00 AM",title:"ttl2",content:"sample content2"},
+                        {date:"2017/05/12 10:00 AM",title:"ttl3",content:"sample content3"},
+                        {date:"2017/05/12 11:00 AM",title:"ttl4",content:"sample content4"},
+                        {date:"2017/05/12 01:00 PM",title:"ttl5",content:"sample content5"}
+                    ],
+                    Titles:["First Day","Second Day"]
+                });
+```
 
 ## Built With
 
