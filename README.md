@@ -54,27 +54,27 @@ $(document).ready(function() {
 
 the Option List helps you customize Style and Content:
 
-###Theme
+### Theme
 use `darkColor` , `lightColor` , `mainColor` , `bgColor` to Customize aJanda theme. set using HEX color format.
 
-###Html Content
+### Html Content
 set `htmlContent` to Enable adding your own html code as content. **False by default** 
 
-###RTL Support
+### RTL Support
 set `RTL` to Enable RTL layout. **False by default** 
 
-###Locale Support
+### Locale Support
 set `Locale` to choose your desired Localization. **'en-us' by default** 
 
-###Schedule
+### Schedule
 use `date` , `title` , `content` to add aJanda segments.
 for more customizations set `extraClass` with your CSS Classes (**use !important if needed**)
 **make sure you have a non-empty schedule** 
 
-###Titles
+### Titles
 you can assign Tiltes for each Day, just Fill the right ammount of `Titles` array.
 
-Here is a Full Example:
+**Here is a Full Example:**
 ```javascript
 $('.hostelement').aJanda({		 
                     darkColor: '#545f60',
