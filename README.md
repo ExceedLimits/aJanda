@@ -20,13 +20,13 @@ Only [JQuery](https://code.jquery.com/), Goes without saying.
 
 ### Installing
 
-Fisrt, You need to download all files as zip File. 
+Fisrt, You need to download all files as zip File. **Less than 10KB** 
 
 then, add those haeder references **(after JQuery)**:
 
 ```html
-<link href='./your_css_folder/aJanda.css' rel='stylesheet' type='text/css'/>
-<script src='./your_js_folder/aJanda.js'></script>
+<link href='./your_css_folder/aJanda.min.css' rel='stylesheet' type='text/css'/>
+<script src='./your_js_folder/aJanda.min.js'></script>
 ```
 
 that is it, installation is done. 
